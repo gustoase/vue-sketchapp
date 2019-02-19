@@ -4,13 +4,14 @@ const path = require('path');
 
 const outputFile = '../page.asketch.json';
 const plugin_file = '../src/my-command.js';
+const vue_app_url = 'http://localhost:8080/';
 
 console.log('run compile');
 puppeteer.launch().then(async browser => {
   const page = await browser.newPage();
 
   await page.setViewport({width: 1280, height: 1200});
-  await page.goto('http://localhost:8080/', {
+  await page.goto(vue_app_url, {
     waitUntil: 'networkidle2'
   });
 
