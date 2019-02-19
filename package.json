@@ -1,0 +1,35 @@
+{
+  "name": "vue-plugin",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "vue-plugin",
+    "manifest": "src/manifest.json",
+    "main": "vue-plugin.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "webpack": "webpack",
+    "inject": "node ./server/inject.js"
+  },
+  "devDependencies": {
+    "@brainly/html-sketchapp": "^4.1.0",
+    "@skpm/builder": "^0.5.11",
+    "webpack-cli": "^3.2.0",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "author": "a.drozdov <bagzon@gmail.com>",
+  "dependencies": {
+    "chokidar": "^2.1.2",
+    "express": "^4.16.4",
+    "puppeteer": "^1.12.2",
+    "webpack": "^4.28.3"
+  }
+}
