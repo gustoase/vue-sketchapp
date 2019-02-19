@@ -36,4 +36,4 @@ npm run serve
 
 ### Vue Src application in `sketch/src` folder
 
-### Vue app url setting in `server/inject.js`
+### Vue app url http://localhost:8080/ setting in `server/inject.js`
