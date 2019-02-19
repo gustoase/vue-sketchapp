@@ -7,7 +7,7 @@ const plugin_file = '../src/my-command.js';
 const vue_app_url = 'http://localhost:8080/';
 
 console.log('run compile');
-puppeteer.launch().then(async browser => {
+puppeteer.launch({headless: true}).then(async browser => {
   const page = await browser.newPage();
 
   await page.setViewport({width: 1280, height: 1200});

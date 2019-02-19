@@ -1,5 +1,5 @@
 <template>
-    <div :data-sname="name" :class="color" class="block">
+    <div :data-rname="name" data-gname="child-block" :class="color" class="block">
         Class {{color}}
     </div>
 </template>
