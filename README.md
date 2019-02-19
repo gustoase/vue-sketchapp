@@ -4,6 +4,7 @@ _This plugin was created using `skpm`. For a detailed explanation on how things 
 
 Basically used https://github.com/brainly/html-sketchapp
 
+![Example vue components in sketchapp](http://dl3.joxi.net/drive/2019/02/19/0009/0709/651973/73/2ec2c14518.jpg)
 ## Usage
 
 Install the dependencies
