@@ -40,11 +40,14 @@ npm run serve
 
 
 ### API
-To set group names in a sketch: group1, app-container etc..  you need to install data attr to node.
-*data-gname="child-block"* - group name in sketch
-*data-rname="color rect"* - rectangle name
 
-Example
+To set group names in a sketch: group1, app-container etc..  you need to install data attr to node.
+
+**data-gname="child-block"** - group name in sketch
+
+**data-rname="color rect"** - rectangle name
+
+__Example__
 ```html
 <div id="app" data-gname="app">
         <div data-gname="parent-block" class="test">
@@ -61,7 +64,7 @@ Example
 .....
 ```
 
-*Block.vue component*
+__Block.vue component__
 ```html
 <div :data-rname="name" data-gname="child-block" :class="color" class="block">
    Class {{color}}
