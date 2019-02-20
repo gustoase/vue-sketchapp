@@ -5,9 +5,7 @@ function flatten(arr) {
 }
 
 // Node: we could also use nodeTreeToSketchPage here and avoid traversing DOM ourselves
-export function run(mainNode = document.body) {
-  const node = document.body;
-
+export function run(node = document.body) {
   const page = nodeTreeToSketchPage(node, {
     getRectangleName: function (node) {
       return node.dataset.rname;
