@@ -7,7 +7,12 @@
 <script>
     export default {
         name: "Block",
-        props: ['color', 'name']
+        props: ['color'],
+        computed: {
+            name() {
+                return 'block-rectangle-'+this.color;
+            }
+        }
     }
 </script>
 

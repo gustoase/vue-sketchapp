@@ -1,15 +1,15 @@
 <template>
-    <div id="app" data-gname="app">
-        <div data-gname="parent-block" class="test">
-            <Block color="red" name="rect red"/>
-            <Block color="black" name="rect black"/>
-            <Block color="green" name="rect green"/>
+    <div id="app" >
+        <Block color="red"   data-sketch-symbol="Blocks1/Red"/>
+        <Block color="black" data-sketch-symbol="Blocks1/Black"/>
+        <Block color="green" data-sketch-symbol="Blocks1/Green"/>
+        <div class="head1" data-sketch-text="Heading">
+            Heading1
         </div>
-        <div data-gname="parent-block2" class="test">
-            <Block color="red" name="rect red"/>
-            <Block color="black" name="rect black"/>
-            <Block color="green" name="rect green"/>
+        <div class="head2" data-sketch-text="Heading/Two">
+            Heading2
         </div>
+        <div data-sketch-color="#565454" class="test" style="background-color: #565454">sfsf</div>
     </div>
 </template>
 
@@ -38,7 +38,14 @@
     .test {
         border: 1px solid red;
         padding: 10px;
+        width: 100px;
+        height: 100px;
     }
 
-
+    .head1 {
+        font-size: 22px;
+    }
+    .head2 {
+        font-size: 24px;
+    }
 </style>

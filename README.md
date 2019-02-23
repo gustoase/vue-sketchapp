@@ -2,7 +2,7 @@
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
-Basically used https://github.com/brainly/html-sketchapp
+Basically used https://github.com/brainly/html-sketchapp and https://github.com/seek-oss/html-sketchapp-cli
 
 ![Example vue components in sketchapp](http://dl3.joxi.net/drive/2019/02/20/0009/0709/651973/73/e8d95a82dd.jpg)
 ## Usage
